@@ -1,0 +1,6 @@
+# Morphological_segmentation
+image processing based on skin-color modellingand morphological segmentation
+
+Location detection and segmentation of human is an important process for face identification. Many things influencing the success of detection and segmentation of human, between it, complex color background, styles of the clothes, and the luminate etc. For precise segmentation, this paper proposes a color image face segmentation algorithm to segment the face, and proposes another similar algorithm to segment the clothes. Image face segmentation algorithm and clothes segmentation algorithm, combines skin color model, human face structure features, morphological algorithms, edge information, of which the performance is well. Firstly, construct an elliptical skin model in the YCbCr color space to segment the skin color pixels from the background image. While ginkgo is similar to skin in color, we use edge information, then separate face region from ginkgo. To get the further steps, we use mathematical morphological operators and topological algorithm to filter the image. And, candidate face regions will be found., finally, we try to use face template to do matching for suspected face areas. In addition, we imply this method to some different images, the results show the target region successfully.
+
+run wan8new.m
